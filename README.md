@@ -95,7 +95,7 @@ The simulation employs several advanced mathematical techniques to model portfol
 
 The core of our simulation uses GBM to model stock price movements, defined by the stochastic differential equation:
 ```
-dS = \mu S dt + \sigma S dW
+dS = μSdt + σSdW
 ```
 where:
 - S is the stock price
