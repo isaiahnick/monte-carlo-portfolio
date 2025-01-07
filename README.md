@@ -94,9 +94,9 @@ The simulation employs several advanced mathematical techniques to model portfol
 ### Geometric Brownian Motion (GBM)
 
 The core of our simulation uses GBM to model stock price movements, defined by the stochastic differential equation:
-$$
+```
 dS = \mu S dt + \sigma S dW
-$$
+```
 where:
 - S is the stock price
 - μ is the drift (expected return)
